@@ -8,17 +8,20 @@
 
 int main(void)
 {
-	int combination;
+	int num;
 
-	combination = '0';
-	while (combination < '9')
-	{
-		putchar(combination);
+	num = '0';
+	while (num < '9')
+	{	
+		putchar(num);
 		putchar(',');
-		combination++;
-	if (combination == '9')
-		putchar(combination);
+		putchar(' ');
+		num++;
+		if (num == '9')
+		{
+			putchar(num);
+		}
 	}
-	putchar('\n');
+
 	return (0);
 }
