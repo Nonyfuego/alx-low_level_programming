@@ -1,7 +1,7 @@
-#include"main.h"
+#include "main.h"
 
-/*
- * main - print "_putchar followed boy a newline
+/**
+ * main - Entry point
  *
  *
  * Return: Always 0 (success)
